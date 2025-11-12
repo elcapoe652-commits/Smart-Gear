@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Gear - Computadoras Reacondicionadas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Inter] text-gray-800 bg-white scroll-smooth">
+
+  <!-- Hero / Inicio -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-blue-900 to-blue-600 text-white p-6">
+    <h1 class="text-5xl font-extrabold mb-4">Smart Gear</h1>
+    <p class="text-lg max-w-2xl mb-8">Venta de Computadoras Reacondicionadas y Personalizadas. Tecnología accesible, sostenible y adaptada a tus necesidades.</p>
+    <a href="#sobre" class="bg-white text-blue-800 font-semibold px-6 py-3 rounded-2xl shadow-lg hover:bg-gray-100 transition">Descubre Más</a>
+  </section>
+
+  <!-- Sobre Nosotros -->
+  <section id="sobre" class="py-20 px-8 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6">Sobre Nosotros</h2>
+      <p class="mb-6">En <strong>Smart Gear</strong> creemos en una tecnología más sostenible y accesible. Reacondicionamos y ensamblamos computadoras personalizadas, ofreciendo una alternativa ecológica y económica frente al mercado tradicional.</p>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Impacto Ambiental</h3>
+          <p>Reducimos el desecho electrónico promoviendo la reutilización de componentes y la conciencia ambiental.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Accesibilidad Económica</h3>
+          <p>Ofrecemos equipos de alta calidad a precios competitivos, haciendo la tecnología más accesible para todos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Personalización</h3>
+          <p>Diseñamos computadoras adaptadas a las necesidades de cada cliente: gaming, diseño, oficina o estudio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-6">Nuestros Servicios</h2>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Reacondicionamiento</h3>
+          <p>Limpieza, reparación y optimización de equipos usados, reemplazando componentes por versiones mejoradas (como SSD).</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Ensamblaje Personalizado</h3>
+          <p>Computadoras a medida según presupuesto y uso específico (gaming, diseño, oficina, estudio).</p>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Servicios Adicionales</h3>
+          <p>Instalación de software, mantenimiento, reciclaje de equipos viejos y actualización de hardware.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo" class="py-20 px-8 bg-gray-50">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-10">Nuestro Equipo</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700">Melgarejo Hernan</h3>
+          <p class="text-gray-600">Inspección y Evaluación</p>
+          <p class="mt-2 text-sm">Evalúa qué partes deben ser reemplazadas o reparadas.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700">Gonzalez Lautaro</h3>
+          <p class="text-gray-600">Limpieza y Restauración</p>
+          <p class="mt-2 text-sm">Encargado de la limpieza interna y externa de los dispositivos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="text-xl font-semibold text-blue-700">Perdaza Julian Valentin</h3>
+          <p class="text-gray-600">Reparación</p>
+          <p class="mt-2 text-sm">Realiza soldaduras y ajustes técnicos especializados.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recursos y FODA -->
+  <section id="foda" class="py-20 px-8">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-800 mb-10">Recursos y Análisis FODA</h2>
+      <div class="grid md:grid-cols-2 gap-8 text-left">
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-blue-700 mb-2">Fortalezas</h3>
+          <ul class="list-disc pl-6 text-sm">
+            <li>Impacto ambiental positivo.</li>
+            <li>Precios accesibles.</li>
+            <li>Personalización según necesidades del cliente.</li>
+          </ul>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-blue-700 mb-2">Oportunidades</h3>
+          <ul class="list-disc pl-6 text-sm">
+            <li>Tendencias sostenibles y ecológicas.</li>
+            <li>Alianzas con escuelas, ONGs y empresas.</li>
+            <li>Crecimiento del mercado digital.</li>
+          </ul>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-blue-700 mb-2">Debilidades</h3>
+          <ul class="list-disc pl-6 text-sm">
+            <li>Recursos iniciales limitados.</li>
+            <li>Necesidad de conocimientos técnicos especializados.</li>
+          </ul>
+        </div>
+        <div class="bg-blue-50 p-6 rounded-2xl shadow">
+          <h3 class="font-semibold text-blue-700 mb-2">Amenazas</h3>
+          <ul class="list-disc pl-6 text-sm">
+            <li>Competencia de grandes marcas.</li>
+            <li>Percepción de menor calidad en productos reacondicionados.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 px-8 bg-blue-800 text-white text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+      <p class="mb-6">¿Quieres más información o colaborar con nosotros? Contáctanos y te responderemos a la brevedad.</p>
+      <a href="mailto:smartgear.team@gmail.com" class="bg-white text-blue-800 px-6 py-3 rounded-2xl font-semibold shadow hover:bg-gray-100 transition">Enviar Email</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-900 text-white text-center text-sm">
+    © 2025 Smart Gear Team — Innovación Sostenible y Accesible
+  </footer>
+
+</body>
+</html>
